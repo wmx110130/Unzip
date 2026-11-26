@@ -1,0 +1,19 @@
+# 忽略本地配置和缓存
+.gradle/
+.kotlin/
+local.properties
+.idea/
+*.iml
+build/
+app/build/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# 忽略系统生成文件
+.DS_Store
+
+# 签名文件与发布产物
+*.jks
+*.keystore
+*.apk
